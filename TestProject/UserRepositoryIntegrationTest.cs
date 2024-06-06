@@ -20,7 +20,7 @@ namespace TestProject
             _userRepository = new UserRepository(_dbContext);
         }
 
-        [Fact]
+         [Fact]
         public async Task GetById_ExistingUserId_ReturnsUser()
         {
             // Arrange
